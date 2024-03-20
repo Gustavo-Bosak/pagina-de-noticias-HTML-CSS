@@ -1,0 +1,89 @@
+.noticia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 10vw;
+    margin-bottom: 10vh;
+    line-height: 4vh;
+}
+
+.noticia article {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    text-align: justify;
+    align-items: center;
+    width: 70vw;
+    padding-bottom: 10vh;
+    border-bottom: 1vh solid rgb(236,143,66);
+}
+
+.noticia h1 {
+    font-size: 35px;
+    line-height: 5.5vh;
+    background: linear-gradient(115deg, rgba(100,186,158,1) 22%, rgba(164,201,99,1) 65%, rgba(236,209,46,1) 80%, rgba(236,183,81,1) 85%, rgba(236,143,66,1) 95%);
+    padding-block: 4vh;
+    padding-inline: 4vw;
+    border-radius: 0 0 2vw 2vw;
+    width: 76vw;
+}
+
+article h2 {
+    width: 70vw;
+    font-size: 25px;
+    padding-bottom: 2vh;
+}
+
+.noticia h3 {
+    font-size: 13px;
+    font-weight: 500;
+    width: 52vw;
+}
+
+ol {
+    width: 52vw;
+    list-style: square;
+}
+
+.dados {
+    width: 72vw;
+    padding-block: 2vh;
+    border-bottom: 0.4vh solid rgb(236,143,66);
+    font-size: 14px;
+}
+
+.categoria {
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 2vw;
+    background: rgb(236,143,66);
+    border-radius: 1vh;
+    width: fit-content;
+    padding-inline: 0.5vw;
+    padding-block: 0.5vh;
+    color: white;
+}
+
+.panfleto {
+    height: 61.5vh;
+    width: 52vw;
+    object-fit: cover;
+    padding-inline: 24vw;
+    padding-block: 5vh;
+    background: linear-gradient(115deg, rgba(100,186,158,1) 35%, rgba(164,201,99,1) 65%, rgba(236,209,46,1) 80%, rgba(236,183,81,1) 85%, rgba(236,143,66,1) 90%);
+    margin-top: 1vh;
+}
+
+.corpo {
+    height: 61.5vh;
+    width: 52vw;
+    object-fit: cover;
+}
+
+br {
+    margin-block: 2vh;
+}
+
+.anuncio {
+    margin-bottom: 5vh;
+}
